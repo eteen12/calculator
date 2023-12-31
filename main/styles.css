@@ -8,3 +8,9 @@ body{
     width:100vw;
     height: 100vh;
 }
+.Calculator .btn{
+    height:50px;
+    width:50px;
+    margin:15px;
+    font-size: 30px;
+}
