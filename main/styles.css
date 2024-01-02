@@ -37,4 +37,8 @@ body{
     margin-left:20px;
     margin-top:14px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
