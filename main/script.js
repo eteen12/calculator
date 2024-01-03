@@ -34,6 +34,9 @@ document.addEventListener("DOMContentLoaded",function(){
     })
     equal.addEventListener("click", function(){
         calculate()
+        previousScreen.textContent = '';
+        currentScreen.textContent = previousValue;
+
     })
 })
 
@@ -65,7 +68,9 @@ function calculate(){
     }
 
     previousValue = roundNumber(previousValue);
-    console.log(previousValue);
+    previousValue = previousValue.toString();
+    currentValue = previousValue.toString();
+    
 }
 
 function roundNumber(num){
