@@ -44,7 +44,9 @@ body{
 }
 .previous{
     font-size: 20px;
+    margin-left:5px;
 }
 .current{
     font-size: 24px;
+    margin-left:50px;
 }
