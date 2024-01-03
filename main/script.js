@@ -63,4 +63,10 @@ function calculate(){
     else{
         previousValue /= currentValue;
     }
+
+    previousValue
+}
+
+function roundNUmber(num){
+    return Math.round(num * 1000) / 1000;
 }
