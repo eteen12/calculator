@@ -60,4 +60,7 @@ function calculate(){
     else if(operator === "x"){
         previousValue *= currentValue;
     }
+    else{
+        previousValue /= currentValue;
+    }
 }
